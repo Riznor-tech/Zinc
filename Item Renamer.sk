@@ -1,0 +1,5 @@
+command /name <text>:
+ permission: server.name
+ aliases: /rename
+ trigger:
+  set name of player's held item to "%coloured arg 1%"
